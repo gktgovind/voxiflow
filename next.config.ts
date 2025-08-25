@@ -1,13 +1,11 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: 'export',        // static export
   images: {
-    unoptimized: true,
+    unoptimized: true,     // required for GitHub Pages
   },
-  basePath: "/voxiflow", // 👈 use repo name if hosting on GitHub Pages
-  assetPrefix: "/voxiflow/",
-
+  basePath: "/your-repo-name",   // <-- apna repo name daalo
+  assetPrefix: "/your-repo-name/",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
