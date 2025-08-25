@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,     // required for GitHub Pages
   },
-  basePath: "/your-repo-name",   // <-- apna repo name daalo
-  assetPrefix: "/your-repo-name/",
+  basePath: "/voxiflow",   // <-- apna repo name daalo
+  assetPrefix: "/voxiflow/",
 };
 
 export default nextConfig;
