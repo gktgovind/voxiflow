@@ -5,7 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/your-repo-name", // 👈 use repo name if hosting on GitHub Pages
+  basePath: "/voxiflow", // 👈 use repo name if hosting on GitHub Pages
+  assetPrefix: "/voxiflow/",
+
 };
 
 module.exports = nextConfig;
